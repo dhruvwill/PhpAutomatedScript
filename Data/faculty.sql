@@ -1,0 +1,30 @@
+CREATE TABLE IF NOT EXISTS faculty (
+    `Name` VARCHAR(31) CHARACTER SET utf8,
+    `Phone` BIGINT,
+    `Email` VARCHAR(27) CHARACTER SET utf8,
+    `Department` VARCHAR(11) CHARACTER SET utf8,
+    `Column_5` INT,
+    `Column_6` INT,
+    `Column_7` INT,
+    `Column_8` INT,
+    `Column_9` INT,
+    `Column_10` INT
+);
+INSERT INTO faculty VALUES
+    ('Dr.Sejal Patel',9924781104,'sejal5765@gmail.com','General',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Patel Ami Jitendra',9924634393,'amipatel@vpmp.ac.in','Computer',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Mrs. Kinjal Mistry',9427714104,'kinjalmistry@vpmp.ac.in','Computer',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Mrs. Neha Patel',08000726709,'nehapatel@vpmp.ac.in','Computer',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Preeti Gajjar ',9426842258,'preetigajjar@vpmp.ac.in ','Computer',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Shweta j Patel',9409147136,'shwetapatel@vpmp.ac.in','Computer',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('PATEL FINALBEN DINESHBHAI ',8980209020,'final237@gmail.com ','General',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Mrs. Darshana Tejaskumar Patel ',9428801960,'darshanapatel@vpmp.ac.in ','Computer',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('FALGUNI PRAJAPATI',919712960362,'falguniprajapati@vpmp.ac.in','Civil',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Piyusha Patel ',9924721795,'piyusha23kiran@gmail.com','General',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Kinjal Bhavsar ',9925140518,'Kinjalbhavsar@vpmp.ac.in','Electronics',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Aesha k joshi',9428805693,'aeshajoshi@vpmp.ac.in','Electrical',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('FAGUN NEEL UPADHYAY ',8866003401,'fagunupadhyay@vpmp.ac.in','Electrical',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Sonal D Joshi',9898006281,'Joshisonal81@gmail.com','General',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Niketa patel ',9664545025,'niketapatel719@gmail.com','Civil',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Mrs. Vaishali Mehta',9426622485,'vaishalimehta@vpmp.ac.in','Computer',NULL,NULL,NULL,NULL,NULL,NULL),
+    ('Mrs. Mital M. Patel ',9327921277,'mittal.r.patel@gmail.com ','Computer',NULL,NULL,NULL,NULL,NULL,NULL);
